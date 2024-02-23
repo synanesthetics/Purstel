@@ -1,0 +1,31 @@
+{
+    "name": "purstel-theme",
+    "displayName": "Purstel",
+    "description": "Dark purple theme I made for my own personal usage.",
+    "publisher": "synanesthetics",
+    "author": {
+        "name": "Aj Golden"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "purstel",
+        "purple theme",
+        "synanesthetics",
+        "purple"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Purstel",
+                "uiTheme": "vs-dark",
+                "path": "/themes/purstel.json"
+            }
+        ]
+    }
+}
