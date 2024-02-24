@@ -22,7 +22,7 @@ You can view the repository for this theme on <a href="https://github.com/synane
 
 ## Screenshots
 
-<img src="https://github.com/synanesthetics/Purstel/blob/main/images/screenshot/screenshot1.png?raw=true" alt="Example 1">
+<img src="https://github.com/synanesthetics/Purstel/blob/main/images/screenshot/purstel_screenshot1.png?raw=true" alt="Example 1">
 
 ## Color Palette
 
