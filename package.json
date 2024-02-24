@@ -2,13 +2,20 @@
     "name": "purstel-theme",
     "displayName": "Purstel",
     "description": "Dark purple theme with pastel highlights",
+    "main": "dist/extension.js",
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "scripts": {
+        "vscode:prepublish": "tsc -p tsconfig.json"
+    },
     "publisher": "synanesthetics",
     "author": {
         "name": "Aj Golden"
     },
-    "version": "0.0.7",
+    "version": "0.1.0",
     "engines": {
-        "vscode": "^1.22.0"
+        "vscode": "^1.86.0"
     },
     "repository": {
         "type": "git",
@@ -31,6 +38,20 @@
                 "uiTheme": "vs-dark",
                 "path": "/themes/purstel-color-theme.json"
             }
-        ]
+        ],
+        "configuration": {
+            "title": "Purstel",
+            "properties": {
+                "purstel.useSemanticItalics": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Specifies whether to use in-editor semantic italics"
+                }
+            }
+        }
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.86.0",
+        "typescript": "^5.3.3"
     }
 }

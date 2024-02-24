@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",                 /* Set the target ECMAScript version */
+      "module": "CommonJS",               /* Specify module code generation */
+      "strict": true,                     /* Enable all strict type-checking options */
+      "esModuleInterop": true,            /* Enable interoperability with CommonJS modules */
+      "skipLibCheck": true,               /* Skip type checking of declaration files */
+      "forceConsistentCasingInFileNames": true,  /* Ensure consistent casing in filenames */
+      "outDir": "./dist",                 /* Specify output directory */
+      "rootDir": "./src"                  /* Specify the root directory of input files */
+    },
+    "include": [
+      "src/**/*.ts"                      /* Include TypeScript files under the src directory */
+    ],
+    "exclude": [
+      "node_modules"                     /* Exclude the node_modules directory */
+    ]
+}
