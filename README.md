@@ -3,7 +3,7 @@
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/synanesthetics/Purstel) ![GitHub last commit](https://img.shields.io/github/last-commit/synanesthetics/Purstel) ![Visual Studio Marketplace Last Updated](https://img.shields.io/visual-studio-marketplace/last-updated/synanesthetics.purstel-theme) ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/synanesthetics.purstel-theme?style=flat)
 
 
-Purstel is a dark pruple theme featuring pastel highlights. Partially created with <a href=https://themes.vscode.one>Theme Studio</a>.
+Purstel is a dark purple theme featuring pastel highlights. Partially created with <a href=https://themes.vscode.one>Theme Studio</a>.
 
 ## Installing
 
@@ -16,13 +16,21 @@ To select this theme, open the command pallete:
 
 Begin typing `theme` and select `Preferences: Color Theme`. Once the extension is installed, a `Purstel` option will appear. 
 
+## Settings
+
+You can toggle semantic italics for certain keywords in the extension settings, or by changing `purstel.useSemanticItalics` in your `settings.json` file.
+
+The full list of scopes italicized by this setting is available within the <a href="https://github.com/synanesthetics/Purstel/blob/main/src/extension.ts">extension.ts</a> file. 
+
 ## Repository
 
-You can view the repository for this theme on <a href="https://github.com/synanesthetics/Purstel">Github</a>.
+The repository for this theme is available on <a href="https://github.com/synanesthetics/Purstel">Github</a>.
 
 ## Screenshots
 
 <img src="https://github.com/synanesthetics/Purstel/blob/main/images/screenshot/purstel_screenshot1.png?raw=true" alt="Example 1">
+
+##### Note: screenshot does not feature semantic italics. 
 
 ## Color Palette
 
